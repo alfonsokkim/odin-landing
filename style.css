@@ -1,0 +1,171 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+    padding: 0 240px
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  /* position: fixed;
+  width: 100%; */
+}
+
+.top-block {
+  background-color: #1f2937;
+  padding: 120px 0;
+  color: white;
+}
+
+.top-block .container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* padding: 100px 0; */
+}
+
+.top-block .container .top-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-size: 350%;
+    font-weight: bold;
+    text-wrap: wrap;
+}
+
+.sub-text {
+    width: 80%;
+    font-size: 130%;
+    color: rgb(220, 220, 220)
+}
+
+.sign-up {
+  border: none;
+  border-radius: 10px;
+  background: #3882f6;
+  color: white;
+  padding: 10px 35px;
+  width: 75px;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.content-block {
+    padding: 30px 0;
+}
+
+/* .content-title {
+    text-align: end;
+} */
+
+.content-block .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 120%;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    gap: 10px;
+}
+
+.block-text {
+    text-align: center;
+    width: 200px;
+}
+
+.quote-block {
+    background-color: lightgray;
+    padding: 100px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.advert-block {
+    padding: 100px 0;
+}
+
+.advert-block .container {
+  border: none;
+  border-radius: 10px;
+  background: #3882f6;
+  color: white;
+  margin: 0 230px;
+  padding: 65px 150px;
+  /* width: 70px; */
+  font-weight: bold;
+  font-size: 110%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advert-block .container .sign-up {
+  border: 2px solid white; /* White ring */
+  border-radius: 12px;
+}
+
+.advert-title {
+    font-size: 150%;
+}
+
+.advert-content {
+    font-weight: 300;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 140%;
+}
